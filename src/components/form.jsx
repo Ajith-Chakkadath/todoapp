@@ -22,7 +22,16 @@ export default function Form() {
 
     function display(e){
        e.preventDefault();
-       setNewData([tableData])
+       setNewData([...newData ,{tableData}])
+       
+
+    setTableData({
+        fname : "",
+        lname : "",
+        email:"",
+        address:"",
+        gender:""
+    })
 
 
     // function deleteRow(num){
