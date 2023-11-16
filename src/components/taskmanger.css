@@ -1,0 +1,29 @@
+.action{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin-left: .5rem;
+}
+
+.dateDisplay{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.dateDisplay h3{
+    margin-bottom: 0px !important; 
+}
+
+/* .add{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
